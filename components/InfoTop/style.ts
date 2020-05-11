@@ -8,8 +8,8 @@ export const InfoContainer = styled.div`
 `;
 
 export const Avatar = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 100%;
   background: url("static/images/avatar.jpg");
   background-size: cover;
@@ -17,17 +17,17 @@ export const Avatar = styled.div`
 `;
 
 export const TextContainer = styled.div`
-margin: 12px;
+margin: 10px;
 `
 
 export const StyledName = styled.h1`
-font-size: 14px;
+font-size: 18px;
 font-weight: bold;
 `
 
 export const StyledTech = styled.div`
-font-size: 14px;
-font-weight: bold;
+font-size: 18px;
+font-weight: normal;
 position: relative;
 
 `

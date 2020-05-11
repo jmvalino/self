@@ -14,8 +14,8 @@ const InfoTop: React.FC = () => {
         <StyledName>Jose Mari Valino</StyledName>
         <StyledTech>
           <svg
-            width="181"
-            height="20"
+            width="250"
+            height="30"
             viewBox="0 0 391 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ const InfoTop: React.FC = () => {
             <path d="M0.5 0L310.5 21L391 27L15.5 36L0.5 0Z" fill="#F0BD0A" />
           </svg>
 
-          <p style={{ position: "absolute", top: 4, left: 0 }}>
+          <p style={{ position: "absolute", top: 5, left: 0 }}>
             IoT , GraphQL and JS
           </p>
         </StyledTech>

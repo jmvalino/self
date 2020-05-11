@@ -5,13 +5,17 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
           <style>
             {`
 
             :root {
 --primary-color: #000;
+font-family: Montserrat, open-sans;
             }
-              /* http://meyerweb.com/eric/tools/css/reset/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -140,6 +144,7 @@ export default class MyDocument extends Document {
                 border-collapse: collapse;
                 border-spacing: 0;
               }
+
             `}
           </style>
 
