@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-
   display: flex;
-  margin: 20px;
   color: var(--primary-color);
 `;
 
