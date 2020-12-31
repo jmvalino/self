@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
 import {
   GithubIcon,
   LinkedInIcon,
-  SunIcon,
-  MoonIcon,
+  // SunIcon,
+  // MoonIcon,
   MailIcon,
 } from "../components/icons";
 

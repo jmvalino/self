@@ -98,7 +98,7 @@ export const SunIcon = () => (
     <path
       d="M20 35V38.3333"
       stroke="#E8A805"
-      strokewidth="2"
+      strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
