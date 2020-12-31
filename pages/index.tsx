@@ -8,15 +8,17 @@ import {
 } from "../components/icons";
 
 const Home: React.FC = () => {
-  const [theme, setTheme] = useState("");
+  const [isDark, setIsDark] = useState(false);
   useEffect(() => {
-    console.log(theme, "Theme");
-  }, [theme]);
+    console.log(isDark, "Theme");
+  }, [isDark]);
 
   return (
-    <div className={`${theme} flex h-screen flex-col md:flex-row`}>
+    <div
+      className={`${isDark ? "dark " : ""}flex h-screen flex-col md:flex-row`}
+    >
       <nav className="flex flex-col p-5 border-r md:w-80 dark:bg-gray-900 dark:border-transparent">
-        <button onClick={() => setTheme("dark")}>
+        <button onClick={() => setIsDark(!isDark)}>
           <div className="flex flex-col bg-primary-900 rounded-full w-14 h-14 items-center justify-center">
             <div className="text-white font-semibold text-xl ">JM</div>
           </div>
