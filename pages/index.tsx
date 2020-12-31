@@ -19,7 +19,7 @@ const Home: React.FC = () => {
     >
       <nav className="flex flex-col p-5 border-r md:w-80 dark:bg-gray-900 dark:border-transparent">
         <button onClick={() => setIsDark(!isDark)}>
-          <div className="flex flex-col bg-primary-900 rounded-full w-14 h-14 items-center justify-center">
+          <div className="flex flex-col bg-primary-900 rounded-full w-14 h-14 min-h-14 min-w-14 items-center justify-center">
             <div className="text-white font-semibold text-xl ">JM</div>
           </div>
         </button>
