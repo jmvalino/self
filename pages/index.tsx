@@ -30,7 +30,7 @@ const Home: React.FC = () => {
           web.
         </p>
 
-        <div className="flex flex-wrap gap-3">
+        <div className="grid gap-2 mr-auto grid-flow-col ">
           <span className="py-1 px-3 text-white bg-primary-900">#IoT</span>
           <span className="py-1 px-3 text-white bg-pink-500">#GraphQL</span>
           <span className="py-1 px-3 text-white bg-gradient-to-b from-red-500 to-purple-500">
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
           Say Hello !
         </button>
 
-        <div className="flex gap-3">
+        <div className="grid gap-2 mr-auto grid-flow-col">
           <a href="https://github.com/jmvalino">
             <GithubIcon />
           </a>
