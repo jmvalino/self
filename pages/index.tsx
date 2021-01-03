@@ -17,7 +17,7 @@ const Home: React.FC = () => {
     <div
       className={`${isDark ? "dark " : ""}flex h-screen flex-col md:flex-row`}
     >
-      <nav className="flex flex-col p-5 border-r md:w-80 dark:bg-gray-900 dark:border-transparent">
+      <nav className="flex flex-col p-5 border-r md:w-80 bg-gray-50 dark:bg-gray-900 dark:border-transparent">
         <button onClick={() => setIsDark(!isDark)}>
           <div className="flex flex-col bg-primary-900 rounded-full w-14 h-14 min-h-14 min-w-14 items-center justify-center">
             <div className="text-white font-semibold text-xl ">JM</div>
